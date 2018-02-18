@@ -2,6 +2,8 @@ FROM python:3.6
 
 MAINTAINER Olivier TASSEL <https://github.com/orgs/investissima/people/otassel>
 
+RUN pip install numpy 
+
 # TA-Lib
 RUN wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz && \
   tar -xvzf ta-lib-0.4.0-src.tar.gz && \
