@@ -1,7 +1,5 @@
 FROM python:3.6
 
-MAINTAINER Olivier TASSEL <https://github.com/orgs/investissima/people/otassel>
-
 RUN pip install numpy 
 
 # TA-Lib
