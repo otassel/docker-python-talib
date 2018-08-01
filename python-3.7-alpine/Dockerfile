@@ -1,6 +1,6 @@
-FROM python:3.6-alpine
+FROM python:3.7-alpine
 
-MAINTAINER Olivier TASSEL <https://github.com/orgs/investissima/people/otassel>
+MAINTAINER Olivier TASSEL <https://github.com/otassel>
 
 RUN apk update
 RUN apk add musl-dev wget git build-base
