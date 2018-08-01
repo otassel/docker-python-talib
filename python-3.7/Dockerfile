@@ -1,4 +1,6 @@
-FROM python:3.6
+FROM python:3.7
+
+MAINTAINER Olivier TASSEL <https://github.com/otassel>
 
 RUN pip install numpy 
 
