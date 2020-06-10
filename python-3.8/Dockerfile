@@ -1,8 +1,6 @@
-FROM python:3.7
+FROM python:3.8
 
 MAINTAINER Olivier TASSEL <https://github.com/otassel>
-
-MAINTAINER Olivier TASSEL <https://github.com/orgs/investissima/people/otassel>
 
 RUN pip install numpy 
 
